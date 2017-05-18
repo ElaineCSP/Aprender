@@ -21,3 +21,11 @@ h1 {
 h3 {
     margin-left: 190px;
 }
+
+.minha-foto {
+    margin-top: 200px;
+    margin-right: 370px;
+    float: right;
+    width: 217px;
+    height: 212px;
+}
