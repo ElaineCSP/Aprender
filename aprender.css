@@ -1,11 +1,23 @@
-.titulo {
-    background-color: lightsteelblue;
-    padding: 20px;
-    text-align: center;
-    font-size: 60px;;
+.foto-topo {
+    width: 91%;
+    height: 294px;
+    margin-left: 75px;
 }
 
-.menu {
-    padding: 100px;
-    margin-left: 2%;
+h1 {    
+    position: absolute;
+    margin-top: -203px;
+    margin-left: 360px;
+    font-size: 77px;
+}
+
+.foto-js {    
+    top: 74px;
+    height: 90px;
+    position: relative;
+    margin-left: 72px;
+}
+
+h3 {
+    margin-left: 190px;
 }
