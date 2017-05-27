@@ -16,14 +16,17 @@
             === Igual a <br>
             !== Diferente de<br>
             and - &&<br>
-            or - ||<br>
+            or - || (conhecido como pipi)<br>
             not - !
         </h4> 
 
-        <h4>Arrays: armazena lista de dados -Contagem inicia em 0.<br><br>
-            Laço for: repetidor de tarefas.<br><br>
+        <h4>Arrays:<br>
+            Loop - Recebe 3 argumentos: declaração da variavél inicial, ate aonde queremos que essa variavél cresça e o que queremos fazer ao final de cada iteração.<br>
+            For: repetidor de tarefas.<br><br>
             While: Também é um repetidor, ao contrário do FOR, é usado quando não se sabe quantas vezes repetirá a tarefa.<br><br>
         </h4>
+
+        <p>toFixed: limita a quantidade de casas decimais.</p>
         
         <h4>Funções: São estruturas que nos possibilita isolar uma determinada lógica e dar um nome a ela, <br>
         permitindo que a chamemos em vários pontos do código.<br><br>
@@ -39,13 +42,35 @@
         quando o texto de um <strong>input</strong> for alterado entre outros eventos. Estas ações são chamadas de eventos,<br>
         que serão disparados em determinado momento.</p>
 
-        <h2>querySelector</h2>
+        <h4>querySelector</h4>
         <p>
-            Aceita fazer buscas através de um elemento HTML, classe ou ID, utilizando seletores "." "#";<br>
+            Aceita fazer buscas através de um elemento HTML, classe ou ID, utilizando seletores "." "#"(mais especifico para fazer buscas);<br>
             document.querySelector(".exemplo")
         </p>
 
-        <h2>textContent</h2>
-        <p>É usado para textos, acessa o valor, conteúdo do seu html com o nome passado </p>
+        <h4>textContent</h4>
+        <p>É usado para textos, acessa o valor, conteúdo do seu html com o nome passado<br>
+        Não chamamos apenas a variavél, pois ela retorna a tag. Por isso devemos acessar var.textContent
+        </p>
+        
+        <h3>Form:
+            <p>
+                action: direciona para outra página;<br>
+                onsubmit: informe uma função para validar no JS. Ex: "validacao();"<br>
+                para evitar a atualização automática da página, use return false ou preventDefault;<br>
+                require: informa o preenchimento obrigatório no campo;<br>
+                focus: indica o campo obrigatório a ser preenchido; <br>
+                indexOf: verifica se o caracter existe;<br>
+                type=email: ja entende que o preenchimento tem que ter @; 
+            </p>
+        </h3>
+
+        <h4>Style
+            <p>O JS também faz atribuições de estilos, porém é melhor deixar essa parte com o CSS, só para saber:<br>
+            classList para acessar e através do add podemos atribuir algo como "backgroundColor"<br>
+            Ex: teste.classList.add("backgroundColor"); 
+            </p>
+        </h4>
+
     </body>
 </html>
