@@ -33,7 +33,52 @@
             deve ter, independente do tamanho do texto dentro dela.
           </p>
 
-          <p></p>
+          <p>z-index: só funciona em elementos posicionados: absolute, relative e fixed;<br>
+          Especifica a ordem de um posicionamento de seus descendentes
+          </p>
+
+          <p>Reset - são arquivos padrozinados que subscreve todo esse estilo padrão dos browsers.<br>
+          É importante usar para ter uma base sólida para o desenvolvimento. Para usa-lo devemos declarar no 
+          link no corpo HTML.<br>
+          EXs: Eric Meyer: arquivo bem pequeno; deixa todos os elementos com mesma aparência e tamanho de fonte;<br>
+          Normalize: arquivo um pouco maior, mas com ajustes mais finos, já define fontes e tamanhos padrão para alguns elementos e 
+          corrige diversas inconsistências entre navegadores;<br>
+          YUI (Yahoo!): arquivo bem pequeno, com um efeito bem parecido com o do Eric Meyer, mas com alguns
+          ajustes mais específicos.
+
+          <h5>IMPORTANTE: CONFLITOS:</h5>
+          - Onde declarar o reset, se vc declarar estilo diferente para a mesma tag?<br>
+          O navegador le as regras na sequência, ficando com a ultima declaração. Também importa a ordem de 
+          especificação
+          </p>
+
+          <h4>Display:</h4>
+          <p>
+              Block: Empilha e tags inline: ficam no meio do texto.<br>
+              Um elemento inline não permite alteração da altura, pois ele tem a altura da fonte.<br>
+              O inline-block foi criado para permitir a alteração de altura e largura do inline.
+          </p>
+
+          <h3>Semantica</h3>
+          <p>
+              SOBRE MIM - Sobre mim <br><br>
+              O navegador entenderá como uma sigla. Como é algo visual devemos declarar então no css com text-transform: uppercase <br>
+              (mesmo que no HTML esteja minuscula no site mostrará letras maiusculas)
+          </p>
+              
+          <h3>COM IMAGEM</h3> 
+          <p>
+              Se estiverem representando visualmente já sabemos: CSS nele. Com isso no html escrevemos o nome
+              e no css usamos background-image. <br>
+              Para eliminar o texto que esta por cima da imagem usamos text-ident: -1000px
+              isso jogara para fora da sua pagina "escondendo" <br>
+              (regula o recuo da primeira linha de um paragrafo)<br>
+              Chamamos essa "solução" de image replacement. 
+              Por outro lado, usar o font-size com valor zero não é bem interpretado por todos os navegadores.
+              Alguns simplesmente ignoram uma declaração desse tipo; outros,
+              mesmo com o tamanho zerado, mostram o texto numa fonte pequena. Ou seja, há um problema de compatibilidade
+              com essa técnica, que a propriedade text-indent não tem.
+          </p>
 
     </body>
 </html>
