@@ -78,7 +78,7 @@
          event.preventDefault(), 
         </p>
 
-        <p>
+        <p> 
             appendChild - adiciona como filho o elemento passado a ela como parâmetro. 
         </p>
 
@@ -87,6 +87,60 @@
         </p>
 
         <p>reset para limpar o campo do form</p>
+
+        <p>
+            A função anônima, não precisa de um nome para o parâmetro, você executa diretamente.
+        </p>
+
+        <p>
+            Um botão criado dentro da tag form tem por padrão enviar os dados para outra página, se a pagina a 
+            ser direcionada não esta definida ele atualiza e apaga os dados preenchidos.<br>
+            Para evitar esse comportamento usamos o: <br>
+            (precisa receber o parametro na função anonima para funcionar)event.preventDefault(), 
+        </p>
+
+        <p>
+            Objetos representam coisas que têm características em comum. É criado com {} separado por virgula, e o ultimo objeto não precisa ser fechado
+        </p>
+
+        <p>
+            reset para limpar o campo do form 
+        </p>
+
+        <p>
+            forEach: faz algo com cada item de um array que for retornado ex: exemplo.forEach(function() {});
+            <br>Ajuda a criar elementos com createElements.
+            <br>appendChild insere um elemento filho ao elemento pai na última posição, ela auxilia na criação de um elemento
+        </p>
+
+        <p>
+            innerHTML permite controlar o HTML interno de um elemento. 
+        </p>
+
+        <p>
+            this é uma palavra de contexto ligada com quem acionou o evento, a quem o evento está atrelado. 
+        </p>
+
+        <p>
+            O event diz quem foi clicado, quem foi o alvo, através da propriedade target podemos deletar o que queremos:
+event.target.remove();
+        </p>
+
+        <p>
+            parentNode acessa o pai de um elemento: event.target.parentNode.remove();
+        </p>
+
+        <p>
+            setTimeOut quando queremos dar um tempo entre a execução um processo, isso fará segurar a execução
+            da função passada por parâmetro para ela, pelo tempo de meio segundo ou o que for definido.<br>
+            setTimeout(function() {
+                 event.target.parentNode.remove();
+            }, 500);
+        </p>
+
+        <p>
+            input usado em uma função para detectar o evento de digitação em um campo 
+        </p>
 
     </body>
 </html>
