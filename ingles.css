@@ -1,0 +1,73 @@
+body {
+}
+
+div {
+    display: inline-block;
+}
+
+.title {
+    text-align: center;
+}
+
+p {
+    margin-left: 20px;
+}
+
+.image-214 {
+    border-radius: 72px;
+    width: 126px;
+    height: 112px;
+    margin-left: 507px;
+    position: absolute;
+}
+
+.dica-214 {
+    border: 2px solid black;
+    height: 114px;
+    width: 634px
+}
+
+.image-215 {
+    width: 126px;
+    height: 112px;
+    margin-left: 507px;
+    position: absolute
+} 
+
+.dica-215 {
+    border: 2px solid black;
+    height: 143px;
+    width: 664px;
+    margin-top: 13px;    
+}
+
+.image-216 {
+    width: 126px;
+    height: 112px;
+    margin-left: 325px;
+    position: absolute;
+    margin-top: 11px;
+} 
+
+.dica-216 {
+    border: 2px solid black;
+    height: 143px;
+    width: 451px;
+    margin-top: 13px;
+}
+
+.image-222 {
+    width: 126px;
+    height: 112px;
+    margin-left: 384px;
+    position: absolute;
+    margin-top: 42px;
+}
+
+.dica-222 {
+    border: 2px solid black;
+    height: 155px;
+    width: 520px;
+    margin-top: 22px;
+    margin-left: 18px;
+}
