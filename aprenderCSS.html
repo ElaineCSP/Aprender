@@ -1,43 +1,52 @@
 <!DOCTYPE>
-<html>
+<html> 
     <head>
         <title>O que sei?</title>
+        <link rel="stylesheet" href="css.css">
     </head>
     <body>
-        <h3>STRONG</h3>
+        <h5>STRONG</h5>
         <p>Quando a palavra que deve ser destacada é apenas visual, como em um botão, o melhor é delcarar no CSS.<br>
         font-weight: bold; Também pode ser definido por número de (menos negrito) 100 a 900 (mais negrito).<br>
         Sinceramente, por ser uma coisa simples destacar o strong, ainda não entendi a melhoria de criar uma classe<br>
-        no HTMl e depois ir declarar o negrito no CSS.<br>
-        <h3>O CSS foi feito justamente para declarar estilos(By Eric Fiorim)</h3>  </p>
+        no HTMl e depois ir declarar o negrito no CSS.<br><br>
+        ---O CSS foi feito justamente para declarar estilos(By Eric Fiorim)---
+        </p>
 
-        <p>Sobrepondo uma imagem: url não é a mesma coisa que src :D</p>
+        <h6>Sobrepondo uma imagem: url não é a mesma coisa que src :D</h6>
 
-        <p>Para manipular o tamanho do background-image tem que usar o background-size</p>
+        <h6>Para manipular o tamanho do background-image tem que usar o background-size</h6>
 
-        <h4>inherit: faz com que a propriedade assuma o valor que foi definido em seu "pai"</h4>
+        <h5>Inherit</h5>
+            <p>Faz com que a propriedade assuma o valor que foi definido em seu "pai"</p>
 
-        <p>Bordas - solid, dashed, double etc, necessário passar tres valores: px solid color.</p>
+        <h6>Bordas - solid, dashed, double etc, necessário passar tres valores: px solid color.</h6>
 
-        <p>Box Model - quando usar o inspecionar ela aparacerá do lado, com os dados de margin, border, padding
+        <h5>Box Model</h5>
+        <p>Quando usar o inspecionar ela aparacerá do lado, com os dados de margin, border, padding
          e o conteudo (obs:a largura e altura são referentes ao conteúdo apenas)</p>
 
-         <p>box-sizing: border-box - recurso recente para os navegadores serve para calcular a largura e a 
+         <h5>Box-sizing: Border-box</h5>
+         <p>Recurso recente para os navegadores serve para calcular a largura e a 
          altura de um elemento no total.
          </p>
 
-         <p>margin auto - o navegador calcula a largura de acordo com o browser que for aberto, ele redistribui
+         <h5>Margin auto </h5>
+         <p>O navegador calcula a largura de acordo com o browser que for aberto, ele redistribui
           o espaço que sobrar</p>
 
-          <p>line-height - controla o espaço entre as linhas de texto, define a altura que uma linha de texto
+          <h5>Line-height</h5>
+          <p>Controla o espaço entre as linhas de texto, define a altura que uma linha de texto
             deve ter, independente do tamanho do texto dentro dela.
           </p>
 
-          <p>z-index: só funciona em elementos posicionados: absolute, relative e fixed;<br>
+          <h5>Z-index:</h5>
+          <p>Só funciona em elementos posicionados: absolute, relative e fixed;<br>
           Especifica a ordem de um posicionamento de seus descendentes
           </p>
 
-          <p>Reset - são arquivos padrozinados que subscreve todo esse estilo padrão dos browsers.<br>
+          <h5>Reset</h5>
+          <p>São arquivos padrozinados que subscreve todo esse estilo padrão dos browsers.<br>
           É importante usar para ter uma base sólida para o desenvolvimento. Para usa-lo devemos declarar no 
           link no corpo HTML.<br>
           EXs: Eric Meyer: arquivo bem pequeno; deixa todos os elementos com mesma aparência e tamanho de fonte;<br>
@@ -47,26 +56,26 @@
           ajustes mais específicos.
 
           <h5>IMPORTANTE: CONFLITOS:</h5>
-          - Onde declarar o reset, se vc declarar estilo diferente para a mesma tag?<br>
+          <p>Onde declarar o reset, se vc declarar estilo diferente para a mesma tag?<br>
           O navegador le as regras na sequência, ficando com a ultima declaração. Também importa a ordem de 
           especificação
           </p>
 
-          <h4>Display:</h4>
+          <h5>Display:</h5>
           <p>
               Block: Empilha e tags inline: ficam no meio do texto.<br>
               Um elemento inline não permite alteração da altura, pois ele tem a altura da fonte.<br>
               O inline-block foi criado para permitir a alteração de altura e largura do inline.
           </p>
 
-          <h3>Semantica</h3>
+          <h5>Semantica</h5>
           <p>
               SOBRE MIM - Sobre mim <br><br>
               O navegador entenderá como uma sigla. Como é algo visual devemos declarar então no css com text-transform: uppercase <br>
               (mesmo que no HTML esteja minuscula no site mostrará letras maiusculas)
           </p>
               
-          <h3>COM IMAGEM</h3> 
+          <h5>Com Imagem</h5> 
           <p>
               Se estiverem representando visualmente já sabemos: CSS nele. Com isso no html escrevemos o nome
               e no css usamos background-image. <br>
@@ -90,18 +99,28 @@
           <p>clearfix usado para fazer a limpeza dos floats, ja que ele jogo os demais elementos para baixo ou para cima
           </p>
 
-          <h4>Positions</h4>
-          <p>Relative conseguimos mudar a posição do elemento de acordo com a posição original dele.
+          <h5>Positions</h5>
+          <p>Relative conseguimos mudar a posição do elemento de acordo com a posição original dele.<br>
+             Absolute podemos colocar um elemento onde quisermos na página.<br>
+             fixed nos permite deixar um elemento no lugar que quisermos, mesmo com o rolamento da pagina, o elemento fixado ficará aparente em qualquer lugar da pagina
           </p>
 
+          <h5>Pixels</h5>
           <p>
-              Absolute podemos colocar um elemento onde quisermos na página.
-          </p>
-
-
-          <p>
-              fixed nos permite deixar um elemento no lugar que quisermos, mesmo com o rolamento da pagina, o elemento fixado ficará aparente em qualquer lugar da pagina
-
+              Utilizamos a porcentagem para termos um controle do tamanho da fonte da página com base no tamanho
+              padrão da fonte do navegador, também podemos definir larguras.<br>s
+              A % esta relacionada ao container, o pai do elemento, a relação é sempre entre as larguras.
+              Se um elemento é definido em pixels, não importa quanto mudemos a configuração ele manterá a
+              configuração.<br><br>
+              Medida em REM - é uma medida muito boa para quando quisermos que os elementos sigam o padrão do texto principal.<br>
+              Tem como padrão a fonte do navegador.
+              <br><br>
+              A medida ch - é boa porque não importa muito a fonte que você está utilizando, ela se adequará muito bem.<br>
+              Tem como padrão a fonte do elemento pai.
+              <br><br>
+              A medida em - indica o tamanho da fonte do elemento, não do navegador.<br>
+              Tem como base a largura do caractere zero da fonte usada.
+              <br><br>
           </p>
     </body>
 </html>
