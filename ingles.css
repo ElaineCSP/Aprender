@@ -71,3 +71,52 @@ p {
     margin-top: 22px;
     margin-left: 18px;
 }
+
+.image-224 {
+    width: 126px;
+    height: 112px;
+    margin-left: 384px;
+    position: absolute;
+    margin-top: 23px;
+}
+
+.dica-224 {
+    border: 2px solid black;
+    height: 155px;
+    width: 520px;
+    margin-top: 22px;
+    margin-left: 18px;
+}
+
+.image-226 {
+    width: 126px;
+    height: 112px;
+    margin-left: 384px;
+    position: absolute;
+    margin-top: 23px;
+}
+
+.dica-226 {
+    border: 2px solid black;
+    height: 155px;
+    width: 520px;
+    margin-top: 22px;
+    margin-left: 18px;
+}
+
+.more {
+    border: 2px solid black;
+    border-radius: 49px 0;
+    position: absolute;
+    margin-top: -164px;
+    width: 148px;
+    height: 126px;
+    background-color: wheat;
+}
+
+.text-more {
+    font-size: 19px;
+    margin-left: 12px;
+    margin-top: 50px;
+    transform: rotate(-37deg);
+}
