@@ -1,0 +1,126 @@
+body {
+}
+
+div {
+    display: inline-block;
+}
+
+.title {
+    margin-left: 19px;;
+}
+
+p {
+    margin-left: 20px;
+}
+
+.image-223 {
+    border-radius: 72px;
+    width: 126px;
+    height: 112px;
+    margin-left: 336px;
+    position: absolute;
+}
+
+.dica-223 {
+    border: 2px solid black;
+    height: 114px;
+    width: 464px
+}
+
+.image-39 {
+    width: 126px;
+    height: 112px;
+    margin-left: 209px;
+    margin-top: 14px;
+    position: absolute;
+    border-radius: 54px 0;
+} 
+
+.dica-39 {
+    border: 2px solid black;
+    height: 156px;
+    width: 385px;
+    margin-top: 13px;    
+}
+
+.image-221 {
+    width: 126px;
+    height: 112px;
+    margin-left: 262px;
+    position: absolute;
+    margin-top: 11px;
+    border-radius: 20px;
+
+} 
+
+.dica-221 {
+    border: 2px solid black;
+    height: 143px;
+    width: 393px;
+    margin-top: 13px;
+}
+
+.image-222 {
+    width: 126px;
+    height: 112px;
+    margin-left: 384px;
+    position: absolute;
+    margin-top: 42px;
+}
+
+.dica-222 {
+    border: 2px solid black;
+    height: 155px;
+    width: 520px;
+    margin-top: 22px;
+    margin-left: 18px;
+}
+
+.image-224 {
+    width: 126px;
+    height: 112px;
+    margin-left: 384px;
+    position: absolute;
+    margin-top: 23px;
+}
+
+.dica-224 {
+    border: 2px solid black;
+    height: 155px;
+    width: 520px;
+    margin-top: 22px;
+    margin-left: 18px;
+}
+
+.image-226 {
+    width: 126px;
+    height: 112px;
+    margin-left: 384px;
+    position: absolute;
+    margin-top: 23px;
+}
+
+.dica-226 {
+    border: 2px solid black;
+    height: 155px;
+    width: 520px;
+    margin-top: 22px;
+    margin-left: 18px;
+}
+
+.more {
+    border: 2px solid black;
+    border-radius: 49px 0;
+    position: absolute;
+    margin-top: -164px;
+    width: 148px;
+    height: 126px;
+    background-color: wheat;
+}
+
+.text-more {
+    font-size: 19px;
+    margin-left: 12px;
+    margin-top: 50px;
+    transform: rotate(-37deg);
+}
