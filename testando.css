@@ -1,10 +1,18 @@
-
-div {
+.cont {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border: none;
+}
+.boxes {
     display: inline-block;
     border: 2px solid black;
     width: 280px;
     height: 300px;
     text-align: center;
+    margin-left: 37px;
+    margin-top: 34px;
+
 }
 
 .titulos {
@@ -14,6 +22,6 @@ span {
     font-weight: bold;
 }
 
-p {
-    text-align: initial;
+p { 
+    text-align: justify;
 }

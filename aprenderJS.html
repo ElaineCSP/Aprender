@@ -1,89 +1,89 @@
 <!DOCTYPE>
 <html>
     <head>
-        <title>Aprendendo JS</title>
+        <title>testando JS</title>
         <link rel="stylesheet" href="testando.css">
     </head>
     <body>
-        <div>
-            <p><span>Loop</span> Recebe 3 argumentos: declaração da variavél inicial, ate aonde queremos que essa variavél cresça e o que queremos fazer ao final de cada iteração.</p>
-            <p><span>For</span> repetidor de tarefas.</p>
-            <p><span>While</span> Também é um repetidor, ao contrário do FOR, é usado quando não se sabe quantas vezes repetirá a tarefa.</p>
-            <P><span>querySelector</span> Aceita fazer buscas através de um elemento HTML, classe ou ID, utilizando seletores "." "#"(mais especifico para fazer buscas);</p>
-            <br>
-
+        <div class="cont">
+            <div class="boxes">
+                <p><span>Loop</span> Recebe 3 argumentos: declaração da variavél inicial, ate aonde queremos que essa variavél cresça e o que queremos fazer ao final de cada iteração.</p>
+                <p><span>For</span> repetidor de tarefas.</p>
+                <p><span>While</span> Também é um repetidor, ao contrário do FOR, é usado quando não se sabe quantas vezes repetirá a tarefa.</p>
+                <P><span>querySelector</span> Aceita fazer buscas através de um elemento HTML, classe ou ID, utilizando seletores "." "#"(mais especifico para fazer buscas);</p>
+                <br>
+            </div>
+            <div class="boxes"> 
+                <p>
+                === Igual a <br>
+                !== Diferente de;  and - &&<br>
+                or - || (conhecido como pipi) e not - !
+                </p>
+                <p><span>toFixed</span> limita a quantidade de casas decimais.</p>
+                <p><span>JS</span> Linguagem padrão nos navegadores.</p>
+                <p><span>Reset</span> Limpa o campo do formulário</p>
+                <p><span>Função Anônima</span> Não tem parâmetro, pode ser executada diretamente</p>            
+                <p><span>Input</span> Detecta digitação em um campo</p><br>
+            </div>
+            <div class="boxes">
+                <p><span>setTimeOut</span> quando queremos dar um tempo entre a execução de um processo, isso fará segurar a execução
+                da função passada por parâmetro para ela, pelo tempo de meio segundo ou o que for definido.<br>
+                setTimeout(function() {
+                    event.target.parentNode.remove();
+                }, 500);</p>
+                <p><span>parentNode</span> Acessa o pai de um elemento: event.target.parentNode.remove()</p>
+                <p><span>event</span> Diz quem foi clicado, quem foi o alvo, através da propriedade target podemos deletar o que queremos:<br>
+                event.target.remove();
+                </p>
+            </div>
+            <div class="boxes">
+                <p><span>.lenght</span> Conta quantos caracteres há na string, incluindo os espaços.</p>
+                <p><span>String</span> Sequência de caracteres, letras, numeros e espaços.</p>
+                <p><span>Funções</span> São estruturas que nos possibilita isolar uma determinada lógica e dar um nome a ela,
+                permitindo que a chamemos em vários pontos do código.</p>
+                <p><span>Console.log()</span> Função que recebe como parâmetro o conteudo da mensagem que passamos.</p>
+                <p><span>Document</span> Acessa o DOM, pelo JS</p>
+            </div>
+            <div class="boxes">
+                <p><span>appendChild </span> Adiciona como filho o elemento passado a ela como parâmetro.</p>
+                <p><span>Style</span> O JS também faz atribuições de estilos, porém é melhor deixar essa parte com o CSS. Só para saber:<br>
+                <span>classList</span> para acessar é através do add, podemos atribuir algo como "backgroundColor"<br>
+                Ex: teste.classList.add("backgroundColor"); 
+                </p>
+                <p><span>innerHTML</span> Permite controlar o HTML interno de um elemento</p>
+            </div>
+            <div class="boxes">
+                <p><span>Dica</span> Botão criado dentro da tag form tem por padrão enviar os dados para outra página, se a pagina a
+                ser direcionada, não esta definida ele atualiza e apaga os dados preenchidos.<br>
+                Para evitar esse comportamento usamos o event.preventDefault()<br> (precisa receber o parametro na função anonima para funcionar)</p>
+                <p><span>Objetos</span> Representam coisas que têm características em comum.<br>
+                É criado com {} separado por virgula, e o ultimo objeto não precisa ser fechado</p>
+            </div>
+            <div class="boxes">
+                <p><span>this</span> É uma palavra de contexto ligada com quem acionou o evento, a quem o evento está atrelado</p>
+                <p><span>forEach</span> Faz algo com cada item de um array que for retornado ex: exemplo.forEach(function() {});</p>
+                <p><span>createElements</span> Criar elementos através do JS/p>
+                <p><span>appendChild</span> Insere um elemento filho ao elemento pai na última posição, ela auxilia na criação de um elemento</p>
+            </div>
+            <div class="boxes">
+                <p><span>Eventos</span> É comum adicionar um comportamento ao clique de um elemento, ao usuário passar o mouse em cima, <br>
+                quando o texto de um <strong>input</strong> for alterado entre outros eventos. Estas ações são chamadas de eventos,<br>
+                que serão disparados em determinado momento.</p>
+                <p><span>textContent</span> Acessa o valor, conteúdo do seu html com o nome passado<br>
+                Não chamamos apenas a variavél, pois ela retorna a tag. Por isso devemos acessar var.textContent</p>
+            </div>
+            <div class="boxes">
+                <p>
+                    <span>action</span> Direciona para outra página;
+                    <span>onsubmit</span> Informe uma função para validar no JS.<br>
+                    Ex: "validacao();"
+                    para evitar a atualização automática da página, use return false ou preventDefault;<br>
+                    <span>require</span> Informa o preenchimento obrigatório no campo;<br>
+                    <span>focus</span> Indica o campo obrigatório a ser preenchido; <br>
+                    <span>indexOf</span> Verifica se o caracter existe;<br>
+                    <span>type=email</span> Ja entende que o preenchimento tem que ter @; 
+                </p>
+            </div>
         </div>
-        <div>
-            <p>
-            === Igual a <br>
-            !== Diferente de;  and - &&<br>
-            or - || (conhecido como pipi) e not - !
-            </p>
-            <p><span>toFixed</span> limita a quantidade de casas decimais.</p>
-            <p><span>JS</span> Linguagem padrão nos navegadores.</p>
-            <p><span>Reset</span> Limpa o campo do formulário</p>
-            <p><span>Função Anônima</span> Não tem parâmetro, pode ser executada diretamente</p>            
-            <p><span>Input</span> Detecta digitação em um campo</p><br>
-        </div>
-        <div>
-            <p><span>setTimeOut</span> quando queremos dar um tempo entre a execução de um processo, isso fará segurar a execução
-            da função passada por parâmetro para ela, pelo tempo de meio segundo ou o que for definido.<br>
-            setTimeout(function() {
-                 event.target.parentNode.remove();
-            }, 500);</p>
-            <p><span>parentNode</span> Acessa o pai de um elemento: event.target.parentNode.remove()</p>
-            <p><span>event</span> Diz quem foi clicado, quem foi o alvo, através da propriedade target podemos deletar o que queremos:<br>
-            event.target.remove();
-            </p><br>
-        </div>
-        <div>
-            <p><span>.lenght</span> Conta quantos caracteres há na string, incluindo os espaços.</p>
-            <p><span>String</span> Sequência de caracteres, letras, numeros e espaços.</p>
-            <p><span>Funções</span> São estruturas que nos possibilita isolar uma determinada lógica e dar um nome a ela,
-            permitindo que a chamemos em vários pontos do código.</p>
-            <p><span>Console.log()</span> Função que recebe como parâmetro o conteudo da mensagem que passamos.</p>
-            <p><span>Document</span> Acessa o DOM, pelo JS</p>
-        </div>
-        <div>
-            <p><span>appendChild </span> Adiciona como filho o elemento passado a ela como parâmetro.</p>
-            <p><span>Style</span> O JS também faz atribuições de estilos, porém é melhor deixar essa parte com o CSS. Só para saber:<br>
-            <span>classList</span> para acessar é através do add, podemos atribuir algo como "backgroundColor"<br>
-            Ex: teste.classList.add("backgroundColor"); 
-            </p>
-            <p><span>innerHTML</span> Permite controlar o HTML interno de um elemento</p>
-        </div>
-        <div>
-            <p><span>Dica</span> Botão criado dentro da tag form tem por padrão enviar os dados para outra página, se a pagina a
-            ser direcionada, não esta definida ele atualiza e apaga os dados preenchidos.<br>
-            Para evitar esse comportamento usamos o event.preventDefault()<br> (precisa receber o parametro na função anonima para funcionar)</p>
-            <p><span>Objetos</span> Representam coisas que têm características em comum.<br>
-             É criado com {} separado por virgula, e o ultimo objeto não precisa ser fechado</p>
-        </div>
-        <div>
-            <p><span>this</span> É uma palavra de contexto ligada com quem acionou o evento, a quem o evento está atrelado</p>
-            <p><span>forEach</span> Faz algo com cada item de um array que for retornado ex: exemplo.forEach(function() {});</p>
-            <p><span>createElements</span> Criar elementos através do JS/p>
-            <p><span>appendChild</span> Insere um elemento filho ao elemento pai na última posição, ela auxilia na criação de um elemento</p>
-        </div>
-        <div>
-            <p><span>Eventos</span> É comum adicionar um comportamento ao clique de um elemento, ao usuário passar o mouse em cima, <br>
-            quando o texto de um <strong>input</strong> for alterado entre outros eventos. Estas ações são chamadas de eventos,<br>
-            que serão disparados em determinado momento.</p>
-            <p><span>textContent</span> Acessa o valor, conteúdo do seu html com o nome passado<br>
-            Não chamamos apenas a variavél, pois ela retorna a tag. Por isso devemos acessar var.textContent</p>
-        </div>
-        <div>
-            <p>
-                <span>action</span> Direciona para outra página;
-                <span>onsubmit</span> Informe uma função para validar no JS.<br>
-                Ex: "validacao();"
-                para evitar a atualização automática da página, use return false ou preventDefault;<br>
-                <span>require</span> Informa o preenchimento obrigatório no campo;<br>
-                <span>focus</span> Indica o campo obrigatório a ser preenchido; <br>
-                <span>indexOf</span> Verifica se o caracter existe;<br>
-                <span>type=email</span> Ja entende que o preenchimento tem que ter @; 
-            </p>
-        </div>
-       
     </body>
 </html>
