@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="testando.css">
     </head>
     <body>
+        
         <div class="cont">
             <div class="boxes">
                 <p><span>Loop</span> Recebe 3 argumentos: declaração da variavél inicial, ate aonde queremos que essa variavél cresça e o que queremos fazer ao final de cada iteração.</p>
@@ -83,6 +84,30 @@
                     <span>indexOf</span> Verifica se o caracter existe;<br>
                     <span>type=email</span> Ja entende que o preenchimento tem que ter @; 
                 </p>
+            </div>
+            <div class="boxes">
+                <p>
+                    <span>Form</span>
+                    <p>Para que o navegador saiba identificar a qual campo se refere o que, usamos a tag label,
+                    visualmente não muda, mas melhora a semântica e a acessibilidade.<br>
+                    O input também pode ficar dentro da label;
+                    A name deve ser definida para que o navegador selecione apenas um campo, no caso de existir mais;<br>
+                    Placeholder, deixa o usuário saber o que deve digitar dentro do campo e limpa automáticamente quando clicado;<br>
+                    Mensagem: textarea, pode ser configurada para ter colunas(cols) e linhas(rows);
+                </p>
+            </div>
+            <div class="boxes">
+                <p>
+                    <span>Form</span>
+                    <p>
+                        Type define o campo, se for e-mail, ele não deixará passar caso falte o @.<br>
+                        No fim de todos os nomes devidamente preenchidos, escrevemos requeried, para tornar o 
+                        preenchimento do campo obrigatório.<br>
+                        Autofocus para indicar qual campo o usuário está;<br>
+                        fieldset e legend separa em dados pessoais e assuntos;<br>
+                        pattern podemos determinar o padrão que um campo ou senha deve ter: ..."[A-7a-Z0-9]*"
+                        O * indica que o caracter pode ser repetido.
+                    </p>
             </div>
         </div>
     </body>
